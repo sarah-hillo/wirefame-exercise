@@ -1,0 +1,88 @@
+
+*{
+    box-sizing: border-box;
+  }
+body{
+    margin-right: 0%;
+}
+header{
+    width:100%;
+    text-align: center;
+    background-color:gray; 
+    display: inline-block;
+  
+    
+
+    
+}
+main{
+    
+    padding-left: 30px;
+    padding-right: 0px;
+}
+nav ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: inline-block;
+    color: white;
+    position:relative;
+}
+
+main div img{
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+ main div:last-child img, main div:last-child ul {
+    display: inline-block;
+}
+main div:last-child img{
+    width: 50%;
+}
+main div:last-child p  {
+    background-color:gray;
+     width: 300px;
+     font-size: 16px;
+    overflow :scroll;
+    /* overflow-y: scroll;
+     */
+}
+button{
+    height: 30px;
+    width: 130px;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+button:hover{
+
+    background-color: brown;
+    transition-duration: 350ms;
+}
+
+main div ul,main div:last-child img{
+    display: inline-block;
+} 
+main div:last-child img{
+    margin-bottom: 0px;
+}
+main div ul li{
+
+    margin-top: 0px;
+    
+}
+p{
+    overflow: scroll;
+    height: 500px;
+
+}
+footer{
+    background-color:gray; 
+height: 100px;
+padding: 20px;
+width: 100%;
+}
